@@ -94,6 +94,8 @@ if(checkCollision(rock))
      * we should remove the rock from the DOM.
      */
   }
+  
+   window.requestAnimationFrame(moveRock)
 
   // We should kick off the animation of the rock around here.
 

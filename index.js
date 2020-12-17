@@ -132,8 +132,9 @@ function moveDodger(e) {
    * And be sure to use the functions declared below!
    */
    if (e.which == 37)
-    return moveDodgerLeft
-    else if (e.which == )
+    return moveDodgerLeft()
+    else if (e.which == 39)
+    return moveDodgerRight()
 }
 
 function moveDodgerLeft() {

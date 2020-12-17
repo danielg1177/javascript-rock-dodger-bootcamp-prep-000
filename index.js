@@ -58,15 +58,13 @@ function createRock(x) {
   rock.style.left = `${x}px`
 
   // Hmmm, why would we have used `var` here?
-  var top = 0
-
-  rock.style.top = top
+  var top = rock.style.top = 0
 
   /**
    * Now that we have a rock, we'll need to append
    * it to GAME and move it downwards.
    */
-
+ GAME.append(rock)
 
   /**
    * This function moves the rock. (2 pixels at a time

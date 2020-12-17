@@ -85,7 +85,9 @@ if(checkCollision(rock))
      * the GAME, we want to move it again.
      */
     if(top < GAME_HEIGHT) {
-      window.requestAnimationFrame()
+      window.requestAnimationFrame(moveRock)
+    } else {
+      
     }
     /**
      * But if the rock *has* reached the bottom of the GAME,

@@ -84,7 +84,7 @@ if(checkCollision(rock))
      * Otherwise, if the rock hasn't reached the bottom of
      * the GAME, we want to move it again.
      */
-
+    if()
     /**
      * But if the rock *has* reached the bottom of the GAME,
      * we should remove the rock from the DOM.

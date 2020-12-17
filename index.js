@@ -87,7 +87,7 @@ if(checkCollision(rock))
     if(top < GAME_HEIGHT) {
       window.requestAnimationFrame(moveRock)
     } else {
-      
+      rock.remove()
     }
     /**
      * But if the rock *has* reached the bottom of the GAME,

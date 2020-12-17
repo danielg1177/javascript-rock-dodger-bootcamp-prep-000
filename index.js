@@ -78,7 +78,8 @@ function createRock(x) {
      * we should call endGame().
      */
      rock.style.top = `${top += 2}px`
-if(checkCollision)
+if(checkCollision(rock))
+  return endGame()
     /**
      * Otherwise, if the rock hasn't reached the bottom of
      * the GAME, we want to move it again.

@@ -116,6 +116,10 @@ if(checkCollision(rock))
 function endGame() {
   clearInterval(gameInterval)
   
+  ROCKS.forEach(function(rock) { rock.remove() })
+  
+  
+  
 }
 
 function moveDodger(e) {
